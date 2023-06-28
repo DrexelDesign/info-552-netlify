@@ -4,82 +4,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <!-- Google Fonts -->
+    <script src="https://kit.fontawesome.com/7ab68a398d.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap" rel="stylesheet"><p></p>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
-    <title>In-Class Demo</title>
+    <title>Navigation Demo</title>
 </head>
 
 <body>
-    <header class="content-grid">
-        <div>
-            <section><img src="img/global/logo.svg" alt="name of company logo"></section>
-            <nav>
-                <ul>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
-    <section id="hero">
-            <img src="img/heroes/hero.jpg" alt="do something great">
-        </section>
-    <section id="about" class="content-grid content-spacing-top">
-                <div>
-                    <aside> 
-                        <div></div>
-                    </aside>
-                    <section>
-                        <div>
-                            <h1>Product Design Done Differently.</h1>
-                            <p>Say goodbye to your ugly UI, and hello to unlimited on-demand product design.</p>
-                        </div>
-                    </section>
-                </div>
-            </section>
-    <section id="partners" class="content-grid content-spacing-top">
-                    <div>
-                        <article>
-                            <h1 class="title">Partners</h1>
-                            <h2>Companie we love to work with!</h2>
-                        </article>
-                        <ul>
-                            <li id="p1"><img src="img/partners/Andriod.svg" alt="Andriod logo"></li>
-                            <li id="p2"><img src="img/partners/Apple.svg" alt="Apple logo"></li>
-                            <li id="p3"><img src="img/partners/AWS.svg" alt="AWS logo"></li>
-                            <li id="p4"><img src="img/partners/Reddit.svg" alt="Reddit logo"></li>
-                            <li id="p5"><img src="img/partners/Google.svg" alt="Goolge logo"></li>
-                            <li id="p6"><img src="img/partners/MS.svg" alt="MS logo"></li>
-                        </ul>
-                    </div>
-                </section>
-    <section id="hero-2" class="content-spacing-top"></section>
-    <section id="request" class="content-grid content-spacing-top">
-                            <div>
-                                <h1 class="title">Request access to our closed beta</h1>
-                                <h2>Drop your email below to join the waitlist</h2>
-                            
-                                <form action="#" id="request-form">
-                                    <input type="text" placeholder="Email Address">
-                                    
-                                    <section>
-                                        <button class="form-btn">Request Invite</button>
-                                    </section>
-                                    
-                                </form>
-                            </div>
-                        </section>
-    <footer class="content-grid content-spacing-top">
-                                <div>
-                                    <img src="img/global/logo.svg" alt="company logo">
-                                    <h4>Made by <span>@josh</span></h4>
-                                    <p>© Copyright 2022</p>
-                                </div>
-                            </footer>
+    <main>
 
+        <header>
+            <div>
+                <section id="logo-container">
+                    <i class="fa-solid fa-rocket-launch"></i>
+                </section>
+                <aside id="burger-container">
+                    <button id="burger-btn">
+                        <i class="fa-solid fa-bars"></i>
+                    </button>
+                    
+                </aside>
+        
+                <!-- Import the nav kit file here -->
+                <nav id="main-menu">
+                    <aside class="hide-for-lg">
+                       <button id="close-btn">
+                            <i class="fa-solid fa-xmark-large"></i>
+                       </button> 
+                    </aside>
+                    <ul>
+                       <li><a href="#">Link 1</a></li>
+                       <li><a href="#">Link 2</a></li>
+                       <li><a href="#">Link 3</a></li>
+                       <li><a href="#">Link 4</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <section id="hero"></section>
+
+    </main>
     <script src="js/scripts-min.js"></script>
 </body>
 
